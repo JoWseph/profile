@@ -58,7 +58,7 @@ table{
 }
 
 .movie-card-row {
-  height: 150px
+  height: 150px;
   overflow: hidden;
 }
 
@@ -75,4 +75,5 @@ table{
 
 .list-no-dot {
   list-style-type: none;
+  padding: 0;
 }

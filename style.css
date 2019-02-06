@@ -13,26 +13,6 @@ h1, h2, h3{
   font-family: 'Montserrat', sans-serif;
 }
 
-.movie {
-  width: 10vw;
-}
-
-.profile_pic {
-  width: 15vw;
-  border-radius: 50%;
-}
-
-.card {
-  width: 500px;
-  margin: 30px auto;
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
 h1{
   color: #DD5555;
   font-size: 22px;
@@ -62,4 +42,38 @@ table{
   font-weight: 300;
   font-size: 15px;
   line-height: 1.6em;
+}
+
+.movie {
+  width: 10vw;
+}
+
+.profile_pic {
+  width: 15vw;
+  border-radius: 50%;
+}
+
+.movies-table {
+  width: 100%;
+}
+
+.movie-card-row {
+  height: 150px;
+  overflow: hidden;
+}
+
+.card {
+  width: 500px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.list-no-dot {
+  list-style-type: none;
+  padding: 0;
 }

@@ -44,22 +44,25 @@ table{
   line-height: 1.6em;
 }
 
+table td {
+  padding: 0;
+}
+
 .movie {
-  width: 10vw;
+  height:200px;
+  width: 150px;
+  overflow: hidden;
+  display: inline;
+}
+
+
+.movie img {
+  object-fit: cover;
 }
 
 .profile_pic {
   width: 15vw;
   border-radius: 50%;
-}
-
-.movies-table {
-  width: 100%;
-}
-
-.movie-card-row {
-  height: 150px;
-  overflow: hidden;
 }
 
 .card {
@@ -76,4 +79,10 @@ table{
 .list-no-dot {
   list-style-type: none;
   padding: 0;
+}
+
+.limit-h {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
